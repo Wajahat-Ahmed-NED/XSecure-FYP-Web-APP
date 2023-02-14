@@ -23,12 +23,10 @@ const Business = () =>  (
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
         You do the business, <br className="sm:block hidden" /> we’ll handle
-        the money.
+        the security.
       </h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        With the right credit card, you can improve your financial life by
-        building credit, earning rewards and saving money. But with hundreds
-        of credit cards on the market.
+      <p className={`${styles.paragraph} max-w-[470px] mt-5`} style={{textAlign:"justify"}}>
+        With the right security service, you can improve confidentiality, integrity and availability of your business, and ofcourse save your valuable money without any headache. X-Secure will provide all of these attributes against ransomware.
       </p>
 
       <Button styles={`mt-10`} />

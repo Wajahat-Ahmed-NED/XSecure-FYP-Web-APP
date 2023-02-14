@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { profile2, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, machineLearning  } from "../assets";
 
 export const navLinks = [
   {
@@ -14,8 +14,13 @@ export const navLinks = [
     title: "Product",
   },
   {
+    id: "guide",
+    title: "Use Guide",
+  },
+  
+  {
     id: "clients",
-    title: "Clients",
+    title: "Testimonials",
   },
 ];
 
@@ -23,23 +28,53 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "High Quality Product",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Our team works 24/7 with the product to come with the most secure and efficient version to fulfill the needs of users",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "100% Effective Protection",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "We take proactive steps to make sure your information and files are secure.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "X-Secure Open Source",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "An open source application that lets the individual and organizations to protect themselves from particular Ransomwares",
+  },
+];
+export const securityMechanisms = [
+  {
+    id: "feature-1",
+    icon: star,
+    title: "Spend 30,000 Hours Per Year to Ransomware Threats",
+    content:
+      "Our team works more than 30,000 hrs with the product to come with the most secure and efficient version to fulfill the securtiy of users",
+  },
+  {
+    id: "feature-2",
+    icon: shield,
+    title: "SIEM solutions To Show Alerts",
+    content:
+      "We take proactive steps to notify the organization using SIEM solutions, our product will ask SIEM to show alerts so that SOC analyst can respond against them. Incase of individual system, email can be sent or pop up can be display so that user can take action.",
+  },
+  {
+    id: "feature-3",
+    icon: star,
+    title: "Machine Learning - Signature and Behavorial Detection",
+    content:
+      "For detection of ransomwares and their prevention machine learning is used and signature based and behavorial approaches are used.",
+  },
+  {
+    id: "feature-4",
+    icon: send,
+    title: "Reverse Engineering - For New Ransomwares",
+    content:
+      "To identify the working, behaviour and signature of ransomware so that they can be detected later, reverse engineering will be done for every new incoming Ransomware families.",
   },
 ];
 
@@ -47,44 +82,44 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
-    img: people01,
+      "Security is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
+    name: "Asher Faisal Khan",
+    title: "Founder Of Commtel",
+    img: profile2,
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
+      "Security makes your life easier. If you're lucky to have it, you're lucky.",
     name: "Steve Mark",
-    title: "Founder & Leader",
-    img: people02,
+    title: "Founder & Leader of Turing",
+    img: profile2,
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
-    img: people03,
+      "It is usually people in the security business, finance, and international trade that are really rich.",
+    name: "Wajahat Ahmed",
+    title: "Founder & CEO of Waji Tech Ltd",
+    img: profile2,
   },
 ];
 
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "Active Users",
+    value: "380+",
   },
   {
     id: "stats-2",
     title: "Trusted by Company",
-    value: "230+",
+    value: "20+",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "Attacks Prevented",
+    value: "1034+",
   },
 ];
 
@@ -115,40 +150,33 @@ export const footerLinks = [
     ],
   },
   {
-    title: "Community",
+    title: "Contact Info",
     links: [
       {
-        name: "Help Center",
+        name: "Email : xSecure@outlook.com ",
         link: "https://www.hoobank.com/help-center/",
       },
       {
-        name: "Partners",
+        name: "Address : 21 King Street Karachi,3000, Pakistan",
         link: "https://www.hoobank.com/partners/",
       },
-      {
-        name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
-      },
-      {
-        name: "Blog",
-        link: "https://www.hoobank.com/blog/",
-      },
-      {
-        name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
-      },
+    
     ],
   },
   {
     title: "Partner",
     links: [
       {
-        name: "Our Partner",
+        name: "Our Partners",
         link: "https://www.hoobank.com/our-partner/",
       },
       {
         name: "Become a Partner",
         link: "https://www.hoobank.com/become-a-partner/",
+      },
+      {
+        name: "Add Testimonial",
+        link: "https://www.hoobank.com/add-testimonial/",
       },
     ],
   },

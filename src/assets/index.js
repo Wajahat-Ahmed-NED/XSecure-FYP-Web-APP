@@ -17,9 +17,11 @@ import apple from "./apple.svg";
 import arrowUp from "./arrow-up.svg";
 import discount from "./Discount.svg";
 import facebook from "./facebook.svg";
+import machineLearning from "./machinelearning.svg";
 import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
 import twitter from "./twitter.svg";
+import profile2 from "./profile2.jpg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
@@ -28,7 +30,9 @@ import logo from "./xsecure_logo.png";
 
 
 export {
+  profile2,
   airbnb,
+  machineLearning,
   bill,
   binance,
   card,

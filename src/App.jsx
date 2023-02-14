@@ -1,5 +1,6 @@
 import styles from "./style";
 import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero } from "./components";
+import SecurityMech from "./components/securityMechanism";
 // yt video and  chose video ko dekh kr update kro
 const App = () => (
   <div className="bg-primary w-full overflow-hidden">
@@ -20,6 +21,7 @@ const App = () => (
         <Stats />
         <Business />
         <Billing />
+        {/* <SecurityMech/> */}
         <CardDeal />
         <Testimonials />
         <Clients />

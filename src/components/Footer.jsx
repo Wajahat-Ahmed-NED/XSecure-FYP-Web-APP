@@ -9,10 +9,10 @@ const Footer = () => (
         <img
           src={logo}
           alt="hoobank"
-          className="w-[266px] h-[72.14px] object-contain"
+          style={{width:"179px", height:"120px"}}
         />
         <p className={`${styles.paragraph} mt-4 max-w-[312px]`}>
-          A new way to make the payments easy, reliable and secure.
+          A new way to protect your system and your network from becoming the victim of Ransomware.
         </p>
       </div>
 
