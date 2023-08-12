@@ -26,8 +26,15 @@ import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
 import logo from "./xsecure_logo.png";
+import rehan from "./rehan.png";
+import wajahat from "./wajahat.png";
+import kabeer from "./kabeer.png";
+import moiz from "./moiz.png";
+import pentesting from "./pentesting.png";
+import raccine from "./raccine.png";
+import soc from "./soc.png";
+import malicious from "./malicious.png";
 // import xsecure_logo2 from "./xsecure_logo2.png";
-
 
 export {
   profile2,
@@ -57,4 +64,12 @@ export {
   people01,
   people02,
   people03,
+  rehan,
+  wajahat,
+  kabeer,
+  moiz,
+  pentesting,
+  soc,
+  raccine,
+  malicious,
 };

@@ -1,5 +1,5 @@
 import styles from "./style";
-import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero } from "./components";
+import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero, Team, ContactUs } from "./components";
 import SecurityMech from "./components/securityMechanism";
 // yt video and  chose video ko dekh kr update kro
 const App = () => (
@@ -15,17 +15,20 @@ const App = () => (
         <Hero />
       </div>
     </div>
-    
+
     <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <Stats />
         <Business />
         <Billing />
-        {/* <SecurityMech/> */}
+        {/* <SecurityMech /> */}
+
+        <Team />
         <CardDeal />
         <Testimonials />
-        <Clients />
         <CTA />
+
+        <ContactUs />
         <Footer />
       </div>
     </div>

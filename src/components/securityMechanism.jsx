@@ -1,6 +1,7 @@
 import { features, securityMechanisms } from "../constants";
 import styles, { layout } from "../style";
 import Button from "./Button";
+import Clients from "./Clients";
 
 const FeatureCard = ({ icon, title, content, index }) => (
   <div className={`flex flex-row p-6 rounded-[20px] ${index !== securityMechanisms.length - 1 ? "mb-6" : "mb-0"} feature-card`}>
@@ -18,15 +19,18 @@ const FeatureCard = ({ icon, title, content, index }) => (
   </div>
 );
 
-const SecurityMech = () =>  (
-  <section  className={layout.section}>
-    
+const SecurityMech = () => (<>
+
+  <Clients />
+  <section className={layout.section}>
     <div className={`${layout.sectionImg} flex-col`}>
+      <h2 style={{ color: "white", fontSize: "40px", fontWeight: "bold" }}>Raccine Features</h2>
+      <br />
       {securityMechanisms.map((feature, index) => (
         <FeatureCard key={feature.id} {...feature} index={index} />
       ))}
     </div>
-  </section>
+  </section></>
 );
 
 export default SecurityMech;

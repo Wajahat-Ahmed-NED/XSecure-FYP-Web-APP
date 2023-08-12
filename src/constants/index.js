@@ -1,4 +1,28 @@
-import { profile2, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, machineLearning  } from "../assets";
+import {
+  profile2,
+  people02,
+  people03,
+  facebook,
+  instagram,
+  linkedin,
+  twitter,
+  airbnb,
+  binance,
+  coinbase,
+  dropbox,
+  send,
+  shield,
+  star,
+  machineLearning,
+  rehan,
+  wajahat,
+  kabeer,
+  moiz,
+  raccine,
+  pentesting,
+  soc,
+  malicious,
+} from "../assets";
 
 export const navLinks = [
   {
@@ -11,16 +35,25 @@ export const navLinks = [
   },
   {
     id: "product",
-    title: "Product",
+    title: "Products/Services",
+  },
+  {
+    id: "team",
+    title: "Team",
   },
   {
     id: "guide",
     title: "Use Guide",
   },
-  
+
   {
     id: "clients",
     title: "Testimonials",
+  },
+
+  {
+    id: "contactus",
+    title: "Contact Us",
   },
 ];
 
@@ -42,7 +75,7 @@ export const features = [
   {
     id: "feature-3",
     icon: send,
-    title: "X-Secure Open Source",
+    title: "X-Secure Open Source Products",
     content:
       "An open source application that lets the individual and organizations to protect themselves from particular Ransomwares",
   },
@@ -100,8 +133,44 @@ export const feedback = [
     content:
       "It is usually people in the security business, finance, and international trade that are really rich.",
     name: "Wajahat Ahmed",
-    title: "Founder & CEO of Waji Tech Ltd",
+    title: "Founder & CEO of Waji Tech LLC",
     img: profile2,
+  },
+];
+
+export const team = [
+  {
+    id: "feedback-1",
+    content:
+      "Skills = Cyber Security Expert. Qualities= Ability to work under pressure, Fast Learner",
+    name: "Rehan Mumtaz",
+    title: "CEO X-Secure",
+    img: rehan,
+  },
+  {
+    id: "feedback-4",
+    content:
+      "Skills = Expert AI/ML & MERN Stack Developer. Qualities = Ability to learn things quickly, Motivator ",
+    name: "Wajahat Ahmed",
+    title: "CTO X-Secure",
+    img: wajahat,
+  },
+  {
+    id: "feedback-2",
+    content:
+      "Skills = Expert in AI/ML and Cyber Security. Qualities = Expertise in time management and Research",
+    name: "Kabeer Ahmed",
+    title: "CyberSecurity Expert",
+    img: kabeer,
+  },
+
+  {
+    id: "feedback-3",
+    content:
+      "Skills = DevOps, Cloud Computing. Qualities = Expertise in research and emerging trends",
+    name: "Moiz Tariq",
+    title: "DevOps Expert",
+    img: moiz,
   },
 ];
 
@@ -160,7 +229,6 @@ export const footerLinks = [
         name: "Address : 21 King Street Karachi,3000, Pakistan",
         link: "https://www.hoobank.com/partners/",
       },
-    
     ],
   },
   {
@@ -208,18 +276,18 @@ export const socialMedia = [
 export const clients = [
   {
     id: "client-1",
-    logo: airbnb,
+    logo: raccine,
   },
   {
     id: "client-2",
-    logo: binance,
+    logo: pentesting,
   },
   {
     id: "client-3",
-    logo: coinbase,
+    logo: soc,
   },
   {
     id: "client-4",
-    logo: dropbox,
+    logo: malicious,
   },
 ];
