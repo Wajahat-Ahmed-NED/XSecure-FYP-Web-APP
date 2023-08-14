@@ -55,6 +55,10 @@ export const navLinks = [
     id: "contactus",
     title: "Contact Us",
   },
+  // {
+  //   id: "github",
+  //   title: "Github",
+  // },
 ];
 
 export const features = [
